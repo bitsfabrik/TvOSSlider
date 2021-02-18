@@ -21,9 +21,9 @@ private let defaultTrackColor: UIColor = .gray
 private let defaultMininumTrackTintColor: UIColor = .blue
 private let defaultFocusScaleFactor: CGFloat = 1.05
 private let defaultStepValue: Float = 0.1
-private let decelerationRate: Float = 0.92
-private let decelerationMaxVelocity: Float = 1000
-private let fineTunningVelocityThreshold: Float = 600
+private let decelerationRate: Float = 0.01
+private let decelerationMaxVelocity: Float = 100
+private let fineTunningVelocityThreshold: Float = 60
 
 /// A control used to select a single value from a continuous range of values.
 public final class TvOSSlider: UIControl {
