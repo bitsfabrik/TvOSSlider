@@ -22,7 +22,7 @@ private let defaultMininumTrackTintColor: UIColor = .blue
 private let defaultFocusScaleFactor: CGFloat = 1.05
 private let defaultStepValue: Float = 0.1
 private let decelerationRate: Float = 0.01
-private let decelerationMaxVelocity: Float = 100
+private let decelerationMaxVelocity: Float = 90
 private let fineTunningVelocityThreshold: Float = 60
 
 /// A control used to select a single value from a continuous range of values.
